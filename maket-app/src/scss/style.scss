@@ -1,7 +1,5 @@
-// Переменные для путей к шрифтам
 $font-path: '../fonts/';
 
-// Подключение шрифтов с помощью @font-face
 @font-face {
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -18,7 +16,6 @@ $font-path: '../fonts/';
 		url('#{$font-path}montserrat-v25-latin-700.woff') format('woff');
 }
 
-// Остальной код стилей
 * {
 	margin: 0;
 	padding: 0;
